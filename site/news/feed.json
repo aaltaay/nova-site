@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-21T01:26:46+00:00",
+  "generated_at": "2026-09-21T01:31:01+00:00",
   "count": 60,
   "stories": [
     {
@@ -63,7 +63,7 @@
     },
     {
       "rank": 5,
-      "score": 6.4,
+      "score": 6.39,
       "source": "Markets Media",
       "domain": "marketsmedia.com",
       "title": "T. Rowe Price Expands Use of Claude in its Investment Process",
@@ -250,7 +250,7 @@
     },
     {
       "rank": 18,
-      "score": 4.07,
+      "score": 4.06,
       "source": "CNBC",
       "domain": "cnbc.com",
       "title": "How one hedge-fund manager built his firm to be powered entirely by AI agents",
@@ -265,7 +265,7 @@
     {
       "rank": 19,
       "score": 4.01,
-      "source": "cryptobriefing.com",
+      "source": "Crypto Briefing",
       "domain": "cryptobriefing.com",
       "title": "Fake Claude trading bot tutorials drain $517K from 224 crypto users",
       "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9tM0tTNnFBcjBpNHUwaGwyb3Yta3Brc2xSZ3ZvSTJMZngzLU9KYTVwV1lQa0x3cTlKWG44RXRzT01KRFBxekpkdkp3Y2NLb1Zjbi15MXFtTEdOVkgwRWQ5X0phamtROGJpQ29tRlJsVQ?oc=5",
@@ -339,7 +339,7 @@
     },
     {
       "rank": 24,
-      "score": 3.9,
+      "score": 3.89,
       "source": "AMBCrypto",
       "domain": "ambcrypto.com",
       "title": "Fake AI trading agent replaces crypto wallets to steal passwords",
@@ -603,7 +603,7 @@
     },
     {
       "rank": 42,
-      "score": 2.92,
+      "score": 2.91,
       "source": "SuaraGarut.ID",
       "domain": "suaragarut.id",
       "title": "JPMorgan Ends Lending to AI Hedge Fund After Major Losses",
@@ -619,12 +619,12 @@
     {
       "rank": 43,
       "score": 2.7,
-      "source": "AOL.ca",
-      "domain": "aol.ca",
+      "source": "bastillepost.com",
+      "domain": "bastillepost.com",
       "title": "ASUS and Poesis Team Up on Autonomous Trading Agents Powered by NVIDIA Technologies",
-      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPZGJxME1uS1RhYWtXRVQwbTVXa2FqOUU0eW9TdGdfQWZkbnVsQjZDcURlS2lZUWR2STZZVlBURmkxc25OcEVuZGdVaW0xRHhkVDRaR1JxamF1TGowOFVhZWhnVTQ3UHFDZ2pWNlZlbHREX0xUNWktQ0JPZmVfRlV1QzJZbWw?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNY05Bd2h6WHpSWnl5bmF3bGltYURpY000VjBkX0V1amhEcl9KM3V1YVFuMzkwOEctczdhZm80dHZGdG94TXJQZHZPMVFFQ3hfdWgtZG9Nck1mbk9qUDYydjhzbVplT0t2aExFMzZTTkwzWFhySzhXSW5Yc0JUaEpjRlREUmdCQVFuWFZJRE93MWZsV05JblVTNDdkOFdzUS1ud2xVNVFKUUxiWWN0V18tMDZOcUtsSDE4YmZzTGtTQ0R0X0drTHkzT2JhNXBteHJu?oc=5",
       "summary": "",
-      "published": "2026-09-17T23:10:25+00:00",
+      "published": "2026-09-17T23:10:28+00:00",
       "why": [
         "1 AI-executes-trades phrase(s)",
         "source x0.45",
@@ -663,7 +663,7 @@
     },
     {
       "rank": 46,
-      "score": 2.51,
+      "score": 2.5,
       "source": "timesofindia.indiatimes.com",
       "domain": "timesofindia.indiatimes.com",
       "title": "Claude and Codex are now trading stocks: Why some American investors are handing over control of their po",
@@ -706,7 +706,7 @@
     },
     {
       "rank": 49,
-      "score": 2.28,
+      "score": 2.27,
       "source": "Express Computer",
       "domain": "expresscomputer.in",
       "title": "Beyond LLMs: What it takes to build reliable infrastructure for agentic trading",
