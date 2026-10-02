@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024">
+  <!-- Nova app icon (small: 16-48 px, and the browser tab). No halo, wider
+       points and a solid core so the star still reads at 16 px.
+       Rebuild the .ico after editing: npm run icons -->
+  <defs>
+    <linearGradient id="tile" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#13203a"/>
+      <stop offset="1" stop-color="#070b14"/>
+    </linearGradient>
+  </defs>
+  <rect width="1024" height="1024" rx="200" fill="url(#tile)"/>
+  <path fill="#8fc4ff" d="M688.8 335.2L602 512L688.8 688.8L512 602L335.2 688.8L422 512L335.2 335.2L512 422Z"/>
+  <path fill="#ffffff" d="M512 62L596.9 427.1L962 512L596.9 596.9L512 962L427.1 596.9L62 512L427.1 427.1Z"/>
+  <circle cx="512" cy="512" r="78" fill="#38d2ff"/>
+</svg>

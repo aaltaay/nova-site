@@ -16,6 +16,7 @@ site/                 what Vercel serves (Root Directory = site)
   styles.css          the one stylesheet (no build step)
   motion.js           optional behaviour: nav, reveals, lightbox, release badge
   news/               generated digest: index.html + feed.json
+  demo/               the live demo: Nova's `npm run build:demo` output, copied in
   shots/              desk screenshots (WebP) and the two diagrams
   og.png              the 1200x630 social card
   vercel.json         clean URLs + security headers
@@ -29,6 +30,18 @@ Every image under `site/shots/` is the real Nova desk rendered in a headless
 browser with every API and socket answered locally from **Nova Marketing
 Sample Data**: no live market, account or strategy rule appears in them. The
 same captures illustrate Nova's README.
+
+## The live demo
+
+`site/demo/` is the real Nova desk running in the browser on Nova Marketing Sample
+Data (Nova's ADR 043). It has no backend: every API call and socket is answered
+inside the page, and nothing is ever sent. To update it, build it in the Nova repo
+and copy the output over:
+
+```bash
+cd Nova/frontend && npm run build:demo
+rm -rf ../../nova-site/site/demo && cp -r dist-demo ../../nova-site/site/demo
+```
 
 ## Deploying
 

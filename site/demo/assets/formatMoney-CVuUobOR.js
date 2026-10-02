@@ -1,0 +1,1 @@
+import"./modulepreload-polyfill-DqAd3Mp3.js";function formatMoney(e,t=2){if(e==null||!Number.isFinite(e))return`—`;let n=Number(Math.abs(e).toFixed(t))===0?0:e,r=Math.abs(n).toLocaleString(`en-US`,{minimumFractionDigits:t,maximumFractionDigits:t});return n<0?`-$${r}`:`$${r}`}export{formatMoney as t};
