@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/demo/favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Nova — Stock Scanner · v1077</title>
+    <script>
+      (function () {
+        try {
+          var t = localStorage.getItem('nova.theme') || 'dark';
+          if (t !== 'light' && t !== 'dark') t = 'dark';
+          document.documentElement.setAttribute('data-theme', t);
+          document.documentElement.style.colorScheme = t;
+        } catch (e) {}
+      })();
+    </script>
+    <script type="module" crossorigin src="/demo/assets/main-CRNvA3hF.js"></script>
+    <link rel="modulepreload" crossorigin href="/demo/assets/modulepreload-polyfill-DqAd3Mp3.js">
+    <link rel="modulepreload" crossorigin href="/demo/assets/vendor-react-DvFsyW2S.js">
+    <link rel="modulepreload" crossorigin href="/demo/assets/chart_api-B3k0mkO0.js">
+    <link rel="modulepreload" crossorigin href="/demo/assets/constants-uwHGne9D.js">
+    <link rel="stylesheet" crossorigin href="/demo/assets/main-Bud1PpSA.css">
+  </head>
+  <body>
+    <div id="root"></div>
+  </body>
+</html>
