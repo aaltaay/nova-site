@@ -3,33 +3,38 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Nova News -- how AI is actually used to trade</title>
+    <title>AI news — how AI is actually used to trade · Nova</title>
     <meta
       name="description"
-      content="A public Reddit-style feed of AI-in-trading reporting: execution algos, quant desks, and the regulators watching them. Not AI stocks. Not generic Fed tape."
+      content="A curated feed of AI-in-trading reporting: execution algos, quant desks and the regulators watching them. Trade press first. No AI-stock lists. Refreshed about every 10 minutes."
     />
     <link rel="canonical" href="https://nova.altaystudio.com/news" />
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-    <meta name="theme-color" content="#000000" />
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+    <meta name="theme-color" content="#05070c" />
+    <meta name="color-scheme" content="dark" />
     <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="Nova" />
     <meta property="og:url" content="https://nova.altaystudio.com/news" />
-    <meta property="og:title" content="Nova News -- how AI is actually used to trade" />
+    <meta property="og:title" content="AI news — how AI is actually used to trade" />
     <meta
       property="og:description"
-      content="Fifty-plus stories on AI running money. Trade press first. Refreshed about every 10 minutes."
+      content="A curated feed of AI-in-trading reporting. Trade press first, refreshed about every 10 minutes. From Nova, the open-source trading desk."
     />
-    <meta property="og:image" content="https://nova.altaystudio.com/shots/trader.png" />
+    <meta property="og:image" content="https://nova.altaystudio.com/og.png" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
     <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:title" content="Nova News -- how AI is actually used to trade" />
+    <meta name="twitter:title" content="AI news — how AI is actually used to trade" />
     <meta
       name="twitter:description"
-      content="A public feed of AI-in-trading reporting. Not a hosted desk. Not AI stocks to buy."
+      content="A curated feed of AI-in-trading reporting. Not AI stocks to buy. Refreshed about every 10 minutes."
     />
-    <meta name="twitter:image" content="https://nova.altaystudio.com/shots/trader.png" />
+    <meta name="twitter:image" content="https://nova.altaystudio.com/og.png" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Outfit:wght@400;500;600;700&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Geist:wght@300..800&family=Geist+Mono:wght@400..700&family=Instrument+Serif:ital@0;1&display=swap"
       rel="stylesheet"
     />
     <link rel="stylesheet" href="/styles.css" />
@@ -37,44 +42,57 @@
       {
         "@context": "https://schema.org",
         "@type": "CollectionPage",
-        "name": "Nova News",
+        "name": "AI news — how AI is actually used to trade",
         "url": "https://nova.altaystudio.com/news",
-        "description": "Public AI-in-trading headline feed. Static HTML. No API."
+        "isPartOf": { "@type": "WebSite", "name": "Nova", "url": "https://nova.altaystudio.com/" },
+        "description": "A curated feed of AI-in-trading reporting: execution algos, quant desks and the regulators watching them."
       }
     </script>
   </head>
   <body class="news-page">
     <a class="skip" href="#main">Skip to content</a>
-    <div class="spot" aria-hidden="true"></div>
+    <div class="sky" aria-hidden="true"></div>
 
-    <header class="nav">
-      <a class="brand" href="/">
-        <img src="/favicon.svg" width="22" height="21" alt="" />
-        Nova
-      </a>
-      <nav class="nav-links" aria-label="Site">
-        <a href="/">Home</a>
-        <a href="/news" aria-current="page">AI news</a>
-        <a href="/#desk">Desk</a>
-        <a href="/#source">Source</a>
-      </nav>
-      <a class="cta-git" href="https://github.com/aaltaay/Nova" rel="noopener noreferrer">
-        Source
-      </a>
+    <header class="nav" data-nav>
+      <div class="nav-in">
+        <a class="brand" href="/" aria-label="Nova home">
+          <img src="/favicon.svg" width="28" height="28" alt="" />
+          <span>Nova</span>
+        </a>
+        <nav class="nav-links" aria-label="Page" data-menu>
+          <a href="/#product">Product</a>
+          <a href="/#trader">Trader View</a>
+          <a href="/#practice">Practice</a>
+          <a href="/#safety">Safety</a>
+          <a href="/#open-source">Open source</a>
+          <a href="/news" aria-current="page">AI news</a>
+        </nav>
+        <div class="nav-cta">
+          <a class="btn btn-ghost btn-sm nav-try" href="/#try">Try it</a>
+          <a class="btn btn-gh btn-sm" href="https://github.com/aaltaay/Nova" rel="noopener noreferrer">
+            <svg viewBox="0 0 16 16" width="16" height="16" aria-hidden="true"><path fill="currentColor" d="M8 0C3.58 0 0 3.58 0 8a8 8 0 0 0 5.47 7.59c.4.07.55-.17.55-.38v-1.33c-2.23.48-2.7-1.07-2.7-1.07-.36-.92-.89-1.17-.89-1.17-.73-.5.06-.49.06-.49.8.06 1.23.83 1.23.83.72 1.22 1.88.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.65-.89-3.65-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82a7.6 7.6 0 0 1 4 0c1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48v2.2c0 .21.15.46.55.38A8 8 0 0 0 16 8c0-4.42-3.58-8-8-8z"/></svg>
+            <span>GitHub</span>
+            <span class="gh-stars" data-stars hidden></span>
+          </a>
+          <button class="nav-burger" type="button" aria-label="Open menu" aria-expanded="false" data-burger>
+            <span></span><span></span>
+          </button>
+        </div>
+      </div>
     </header>
 
     <main id="main">
       <section class="news news-full" id="feed">
-        <header class="sec-head">
-          <p class="eyebrow">Nova News</p>
-          <h1>How AI is actually being used to trade.</h1>
-          <p>
-            Execution algos, quant desks, and the people watching them. Trade press
-            and small publishers sit above WSJ/CNBC filler. AI-as-a-stock and generic
-            Fed tape are filtered out. This page is static HTML -- no API, no secrets.
-            The live Nova desk is a separate newsroom on your machine.
-          </p>
-        </header>
+        <div class="wrap">
+          <header class="news-head">
+            <p class="eyebrow">AI &times; the tape</p>
+            <h1>How AI is <span class="serif">actually</span> being used to trade.</h1>
+            <p>
+              Execution algos, quant desks and the regulators watching them. Trade press and small
+              publishers rank above wire filler; "AI stocks to buy" lists and generic Fed tape are
+              filtered out. Refreshed about every ten minutes.
+            </p>
+          </header>
         <!-- AI_NEWS_FEED:START -->
       <ol class="news-feed">
         <li class="news-item">
@@ -690,12 +708,53 @@
       </ol>
       <p class="news-foot">60 AI-in-trading stories. Trade press is ranked above mega-wire filler. Headlines link to the publisher. Updated <time datetime="2026-10-01T20:58:23+00:00">Oct 01, 2026 20:58 UTC</time>.</p>
       <!-- AI_NEWS_FEED:END -->
+          <aside class="news-cta">
+            <div>
+              <p class="eyebrow">From the makers of this feed</p>
+              <h2>Nova is the trading desk we build in the open.</h2>
+              <p>A free, open-source momentum desk for Interactive Brokers. Scanner, Level 2, practice venues. It runs on your machine.</p>
+            </div>
+            <div class="news-cta-btns">
+              <a class="btn btn-primary" href="https://github.com/aaltaay/Nova" rel="noopener noreferrer">Star Nova on GitHub</a>
+              <a class="btn btn-ghost" href="/">See the desk</a>
+            </div>
+          </aside>
+        </div>
       </section>
     </main>
 
     <footer class="foot">
-      <p><a href="/">Nova</a> by <a href="https://altaystudio.com" rel="noopener noreferrer">Altay Studio</a></p>
-      <p>Local-first. Not investment advice. Not a hosted brokerage.</p>
+      <div class="wrap foot-in">
+        <div class="foot-brand">
+          <a class="brand" href="/"><img src="/favicon.svg" width="24" height="24" alt="" /><span>Nova</span></a>
+          <p>The open-source momentum desk for Interactive Brokers.</p>
+        </div>
+        <nav class="foot-cols" aria-label="Footer">
+          <div>
+            <p>Product</p>
+            <a href="/#product">Scanner</a>
+            <a href="/#trader">Trader View</a>
+            <a href="/#practice">Practice</a>
+            <a href="/#safety">Safety</a>
+          </div>
+          <div>
+            <p>Open source</p>
+            <a href="https://github.com/aaltaay/Nova" rel="noopener noreferrer">GitHub</a>
+            <a href="https://github.com/aaltaay/Nova/releases" rel="noopener noreferrer">Releases</a>
+            <a href="https://github.com/aaltaay/Nova/blob/master/LICENSE" rel="noopener noreferrer">MIT license</a>
+            <a href="https://github.com/aaltaay/Nova/blob/master/SECURITY.md" rel="noopener noreferrer">Security</a>
+          </div>
+          <div>
+            <p>More</p>
+            <a href="/news">AI news</a>
+            <a href="https://altaystudio.com" rel="noopener noreferrer">Altay Studio</a>
+          </div>
+        </nav>
+      </div>
+      <div class="wrap foot-legal">
+        <p>© 2026 Altay Studio. Nova is software, not a brokerage, and nothing here is investment advice. Trading involves risk of loss.</p>
+        <p>Interactive Brokers and IBKR are trademarks of their owners; Nova is not affiliated with them.</p>
+      </div>
     </footer>
 
     <script src="/motion.js" defer></script>

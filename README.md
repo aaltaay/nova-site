@@ -13,12 +13,22 @@ pull request **every ten minutes**, burying real work in bot commits.
 ```
 site/                 what Vercel serves (Root Directory = site)
   index.html          the page
+  styles.css          the one stylesheet (no build step)
+  motion.js           optional behaviour: nav, reveals, lightbox, release badge
   news/               generated digest: index.html + feed.json
-  assets/ shots/      images and screenshots
+  shots/              desk screenshots (WebP) and the two diagrams
+  og.png              the 1200x630 social card
   vercel.json         clean URLs + security headers
 tools/ai_news_*.py    the digest generator (stdlib only) and its tests
 .github/workflows/    the 10-minute refresh job
 ```
+
+## Screenshots
+
+Every image under `site/shots/` is the real Nova desk rendered in a headless
+browser with every API and socket answered locally from **Nova Marketing
+Sample Data**: no live market, account or strategy rule appears in them. The
+same captures illustrate Nova's README.
 
 ## Deploying
 
